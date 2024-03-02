@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     const name = localStorage.getItem('name') || 'My Drive - Google Drive'
     const icon = localStorage.getItem('icon') || 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png'
 
-    doc.title = Doom Proxer
+    doc.title = name
     link.rel = 'icon'
     link.href = icon
 
